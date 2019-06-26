@@ -1,0 +1,11 @@
+
+                                               
+                                              ****Project Descriptive Report****
+                                              ####### BY ABHAY BHARDWAJ ########
+   XXXXXXXXXXXXXXX  This project was the intial prototype for the developement of human following technology XXXXXXXXXXXXXXX
+   
+   The initial prototype - the human following robot#1 is an ARDUINO MICROCONTROLLER PLATFORM based robot which involved the 
+   use of an utrasonic sensor mounted on a servo motor as the sensor assembly and used the L298N DUAL H-BRIDGE motor driver IC
+   to control the two dc motors which enabled the robot to move linearly and also to change the direction of motion.
+   
+   

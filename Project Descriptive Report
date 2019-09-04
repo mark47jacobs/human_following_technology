@@ -8,4 +8,23 @@
    use of an utrasonic sensor mounted on a servo motor as the sensor assembly and used the L298N DUAL H-BRIDGE motor driver IC
    to control the two dc motors which enabled the robot to move linearly and also to change the direction of motion.
    
+   ->The robot will be able to detect the nearest object and then align itself in the direction of the nearest object detected
+   
+   ->Nearest object detection: This will be made possible by the ultrasonic sensor+servo motor assembly. The ultrasonic sensor will 
+     scan a range of 180degsending input of distance at every 5deg rotation and this will be stored in an array. Then the shortest 
+     distance will be computed, the angle corresponding to it will be the angular position of nearest object .
+     
+   ->Aligining the robot : the angular position of the nearest object is stored in a register . Using this value the amount of time 
+     for which the turning mechanism has to be supplied power is caluculated using the following formula..(coming very soon)
+     
+   ->Linearly following the nearest object: after aligining itself in the direction of the  nearest object it will follow it linearly.
+     The best way to describe the following capabilities of the robot is as follows..
+          "the robot will follow the object 'SYNCRONOUSLY' almost mirroring the speed of direction and motion only when the object
+          remains in a particular distance range"
+   
+   ->Speed sync : This was the most difficult part to achieve . This is done by dynamically calculating the speed of the robot and then 
+     achieving an equivalent speed for the robot(equivalent but in max speed limit for the robot)
+     It was done using the following methodology.....(coming very soon) 
+              
+   
    
